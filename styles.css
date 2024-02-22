@@ -1,2 +1,35 @@
 
 /* Your CSS Code here. */
+.holder
+{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+#block1
+{
+	width:100px;
+	height:100px;
+	background-color: red;
+	font-size: 50px;
+	order:2;
+}
+
+#block2
+{
+	width:100px;
+	height:100px;
+	background-color: blue;
+	font-size: 50px;
+	order:3;
+}
+
+#block3
+{
+	width:100px;
+	height:100px;
+	background-color: green;
+	font-size: 50px;
+	order:1;
+}
